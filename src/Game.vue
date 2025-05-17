@@ -187,12 +187,12 @@ function copy() {
     <div class="message" v-if="message">
       {{ message }}
       <pre v-if="grid">{{ grid }}</pre>
-      Lordle of the Rings #{{ dayNumber }}
+      Grondle of the Rings #{{ dayNumber }}
       <pre v-if="copytext"><a style="cursor:pointer;" @click="copy">Copy to clipboard</a></pre>
     </div>
   </Transition>
   <header>
-    <h1>LORDLE OF THE RINGS</h1>
+    <h1>GRONDLE OF THE RINGS</h1>
   </header>
   <div id="board">
     <div
@@ -219,7 +219,7 @@ function copy() {
   <div>
     Use only five-letter words (including names)
     <br/>in the main text of Lord of the Rings.
-    <br/>Built on <a
+    <br/>Modified from <a href="" target="_blank">Lordle of the Rings</a>, built on <a
       href="https://github.com/yyx990803/vue-wordle"
       target="_blank"
       >vue-wordle</a
