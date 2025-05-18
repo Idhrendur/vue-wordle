@@ -114,13 +114,11 @@ function completeRow() {
       // yay!
       setTimeout(() => {
         grid = genResultGrid()
-        copytext = ['Praiseworthy', 'Excellent', 'Brilliant', 'Marvelous', 'Stupendous', 'Phew'][currentRowIndex] + "\n"
+        copytext = "Grond!\n"
         copytext += grid + "\n"
-        copytext += "Grondle of the Rings #" + dayNumber
+        copytext += "Grondle of the Rings"
         showMessage(
-          ['Praiseworthy', 'Excellent', 'Brilliant', 'Marvelous', 'Stupendous', 'Phew'][
-            currentRowIndex
-          ],
+          "Grond!",
           -1
         )
       }, 1600)
