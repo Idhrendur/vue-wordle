@@ -116,7 +116,7 @@ function completeRow() {
         grid = genResultGrid()
         copytext = ['Praiseworthy', 'Excellent', 'Brilliant', 'Marvelous', 'Stupendous', 'Phew'][currentRowIndex] + "\n"
         copytext += grid + "\n"
-        copytext += "Lordle of the Rings #" + dayNumber
+        copytext += "Grondle of the Rings #" + dayNumber
         showMessage(
           ['Praiseworthy', 'Excellent', 'Brilliant', 'Marvelous', 'Stupendous', 'Phew'][
             currentRowIndex
@@ -134,7 +134,7 @@ function completeRow() {
       // game over :(
       grid = genResultGrid()
       copytext = grid + "\n"
-      copytext += "Lordle of the Rings #" + dayNumber
+      copytext += "Grondle of the Rings #" + dayNumber
       setTimeout(() => {
         showMessage(answer.toUpperCase(), -1)
       }, 1600)
@@ -217,8 +217,7 @@ function copy() {
   </div>
   <Keyboard @key="onKey" :letter-states="letterStates" />
   <div>
-    Use only five-letter words (including names)
-    <br/>in the main text of Lord of the Rings.
+    Grond! Grond! Grond!
     <br/>Modified from <a href="" target="_blank">Lordle of the Rings</a>, built on <a
       href="https://github.com/yyx990803/vue-wordle"
       target="_blank"
